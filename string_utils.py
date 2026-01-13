@@ -34,7 +34,7 @@ def count_word_frequency(text):
     words = text.lower().split()
     
     # Remove common punctuation from words
-    punctuaion = ".!?;:\""
+    punctuation = ".,!?;:'\""
     cleaned_words = []
     for word in words:
         cleaned_word = word.strip(punctuation)
